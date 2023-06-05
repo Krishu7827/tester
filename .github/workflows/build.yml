@@ -4,5 +4,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: npm -version
-      - uses: action/checkout@v3
+      - uses: actions/checkout@v3
       - run: npm run test
